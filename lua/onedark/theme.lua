@@ -219,7 +219,7 @@ theme.setup = function(cfg)
     -- TSException         = { };    -- For exception related keywords.
     TSField = { fg = c.cyan0 }, -- For fields.
     -- TSFloat             = { };    -- For floats.
-    TSFunction = { fg = c.cyan0 };   -- For function (calls and definitions).
+    TSFunction = { fg = c.blue0 };   -- For function (calls and definitions).
     -- TSFuncBuiltin       = { };    -- For builtin functions: `table.insert` in Lua.
     -- TSFuncMacro         = { };    -- For macro defined fuctions (calls and definitions): each `macro_rules` in Rust.
     TSInclude = { fg = c.purple0 }, -- For includes: `#include` in C, `use` or `extern crate` in Rust, or `require` in Lua.
@@ -245,7 +245,7 @@ theme.setup = function(cfg)
     -- TSSymbol            = { };    -- For identifiers referring to symbols or atoms.
     -- TSType              = { };    -- For types.
     -- TSTypeBuiltin       = { };    -- For builtin types.
-    TSVariable = { fg = c.cyan0, style = cfg.variable_style }, -- Any variable name that does not have another highlight.
+    TSVariable = { fg = c.blue0, style = cfg.variable_style }, -- Any variable name that does not have another highlight.
     TSVariableBuiltin = { fg = c.yellow1 }, -- Variable names that are defined by the languages, like `this` or `self`.
     TSTag = { fg = c.red1 }, -- Tags like html tag names.
     TSTagAttribute = { fg = c.orange0 },
