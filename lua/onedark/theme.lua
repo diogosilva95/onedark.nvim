@@ -232,7 +232,7 @@ theme.setup = function(cfg)
     -- TSNone              = { };    -- TODO: docs
     -- TSNumber            = { };    -- For all numbers
     TSOperator = { fg = c.cyan0 }, -- For any operator: `+`, but also `->` and `*` in C.
-    TSParameter = { fg = c.red1 }, -- For parameters of a function.
+    TSParameter = { fg = c.gray1 }, -- For parameters of a function.
     -- TSParameterReference= { };    -- For references to parameters of a function.
     TSProperty = { fg = c.cyan0 }, -- Same as `TSField`.
     TSPunctDelimiter = { fg = c.fg0 }, -- For delimiters ie: `.`
