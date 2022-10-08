@@ -117,7 +117,7 @@ theme.setup = function(cfg)
     -- Structure     = { }, --  struct, union, enum, etc.
     -- Typedef       = { }, --  A typedef
 
-    Special = { fg = c.red1 }, -- (preferred) any special symbol
+    Special = { fg = c.gray1 }, -- (preferred) any special symbol
     -- SpecialChar   = { }, --  special character in a constant
     -- Tag           = { }, --    you can use CTRL-] on this
     -- Delimiter     = { }, --  character that needs attention
@@ -219,7 +219,7 @@ theme.setup = function(cfg)
     -- TSException         = { };    -- For exception related keywords.
     TSField = { fg = c.cyan0 }, -- For fields.
     -- TSFloat             = { };    -- For floats.
-    TSFunction = { fg = c.cyan0 };    -- For function (calls and definitions).
+    TSFunction = { fg = c.cyan0 };   -- For function (calls and definitions).
     -- TSFuncBuiltin       = { };    -- For builtin functions: `table.insert` in Lua.
     -- TSFuncMacro         = { };    -- For macro defined fuctions (calls and definitions): each `macro_rules` in Rust.
     TSInclude = { fg = c.purple0 }, -- For includes: `#include` in C, `use` or `extern crate` in Rust, or `require` in Lua.
