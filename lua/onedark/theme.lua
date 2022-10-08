@@ -245,7 +245,7 @@ theme.setup = function(cfg)
     -- TSSymbol            = { };    -- For identifiers referring to symbols or atoms.
     -- TSType              = { };    -- For types.
     -- TSTypeBuiltin       = { };    -- For builtin types.
-    TSVariable = { fg = c.red0, style = cfg.variable_style }, -- Any variable name that does not have another highlight.
+    TSVariable = { fg = c.cyan0, style = cfg.variable_style }, -- Any variable name that does not have another highlight.
     TSVariableBuiltin = { fg = c.yellow1 }, -- Variable names that are defined by the languages, like `this` or `self`.
     TSTag = { fg = c.red1 }, -- Tags like html tag names.
     TSTagAttribute = { fg = c.orange0 },
