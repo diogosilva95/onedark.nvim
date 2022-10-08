@@ -228,7 +228,7 @@ theme.setup = function(cfg)
     TSLabel = { fg = c.blue0 }, -- For labels: `label:` in C and `:label:` in Lua.
     jsonTSLabel = { fg = c.red0 }, -- For labels: `label:` in C and `:label:` in Lua.
     -- TSMethod            = { };    -- For method calls and definitions.
-    TSNamespace = { fg = c.red1 }, -- For identifiers referring to modules and namespaces.
+    TSNamespace = { fg = c.gray1 }, -- For identifiers referring to modules and namespaces.
     -- TSNone              = { };    -- TODO: docs
     -- TSNumber            = { };    -- For all numbers
     TSOperator = { fg = c.cyan0 }, -- For any operator: `+`, but also `->` and `*` in C.

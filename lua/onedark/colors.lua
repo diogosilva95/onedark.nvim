@@ -31,6 +31,7 @@ colors.setup = function(cfg)
     red2 = '#f65866',
     yellow0 = '#ebd09c',
     yellow1 = '#e5c07b',
+    gray1 = '#a0a7b2',
     dev_icons = {
       blue = '#519aba',
       green0 = '#8dc149',
