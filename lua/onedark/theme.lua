@@ -248,7 +248,7 @@ theme.setup = function(cfg)
     TSVariable = { fg = c.blue0, style = cfg.variable_style }, -- Any variable name that does not have another highlight.
     TSVariableBuiltin = { fg = c.yellow1 }, -- Variable names that are defined by the languages, like `this` or `self`.
     TSTag = { fg = c.red1 }, -- Tags like html tag names.
-    TSTagAttribute = { fg = c.orange0 },
+    TSTagAttribute = { fg = c.orange1 },
     -- TSTagDelimiter      = { };    -- Tag delimiter like `<` `>` `/`
     -- TSText              = { };    -- For strings considered text in a markup language.
     -- TSEmphasis          = { };    -- For text to be represented with emphasis.
@@ -274,7 +274,7 @@ theme.setup = function(cfg)
     lessClass = { fg = c.orange1 },
 
     -- make
-    makeIdent = { fg = c.orange0 },
+    makeIdent = { fg = c.orange1 },
 
     -- markdown
     TSURI = { fg = c.blue0, style = Styles.Underline },
@@ -290,7 +290,7 @@ theme.setup = function(cfg)
     phpTSConstructor = { fg = c.yellow1 },
 
     -- python
-    pythonTSParameter = { fg = c.orange0 },
+    pythonTSParameter = { fg = c.orange1 },
     pythonTSFuncBuiltin = { fg = c.cyan0 },
 
     -- ruby
@@ -299,7 +299,7 @@ theme.setup = function(cfg)
     rubyTSParameter = { fg = c.yellow1 },
 
     -- scss
-    scssTSProperty = { fg = c.orange0 },
+    scssTSProperty = { fg = c.orange1 },
     scssTSString = { fg = c.green0, style = Styles.Underline },
     scssTSType = { fg = c.red0 },
 
@@ -307,7 +307,7 @@ theme.setup = function(cfg)
     bashTSFuncBuiltin = { fg = c.cyan0 },
 
     -- sql
-    sqlFold = { fg = c.orange0 },
+    sqlFold = { fg = c.orange1 },
     sqlKeyword = { fg = c.purple0 },
 
     -- typescript
@@ -324,7 +324,7 @@ theme.setup = function(cfg)
     purescriptImport = { fg = c.blue0 },
     purescriptImportAs = { fg = c.blue0 },
     purescriptConstructor = { fg = c.red0 },
-    purescriptTypeVar = { fg = c.orange0 },
+    purescriptTypeVar = { fg = c.orange1 },
     purescriptType = { fg = c.yellow1},
     purescriptStructure = { fg = c.purple0},
     purescriptOperator = { fg = c.cyan0},
@@ -586,7 +586,7 @@ theme.setup = function(cfg)
     IndentBlanklineChar = { fg = c.bg_visual, style = Styles.NoCombine },
 
     -- Lightspeed
-    LightspeedLabel = { fg = c.orange0, style = Styles.Bold },
+    LightspeedLabel = { fg = c.orange1, style = Styles.Bold },
     LightspeedLabelOverlapped = { fg = c.red0, style = Styles.Bold },
     LightspeedLabelDistant = { fg = c.purple0 },
     LightspeedLabelDistantOverlapped = { fg = c.purple0, style = Styles.Underline },
