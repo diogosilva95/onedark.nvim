@@ -210,7 +210,7 @@ theme.setup = function(cfg)
     TSNote = { fg = c.bg0, bg = c.info },
     TSWarning = { fg = c.bg0, bg = c.warning },
     TSDanger = { fg = c.bg0, bg = c.error },
-    TSConstructor = { fg = c.gray1 }, -- For constructor calls and definitions: `= { }` in Lua, and Java constructors.
+    TSConstructor = { fg = c.red1 }, -- For constructor calls and definitions: `= { }` in Lua, and Java constructors.
     -- TSConditional       = { };    -- For keywords related to conditionnals.
     TSConstant = { fg = c.yellow1 }, -- For constants
     -- TSConstBuiltin      = { };    -- For constant that are built in the language: `nil` in Lua.
