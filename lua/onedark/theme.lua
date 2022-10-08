@@ -469,7 +469,7 @@ theme.setup = function(cfg)
     BufferTabpageFill = { fg = c.bg_visual, bg = c.bg1 }, -- filler after the buffer section
 
     BufferCurrent = { fg = c.fg0, bg = c.bg0 },
-    BufferCurrentIndex = { fg = c.blue0, bg = c.bg0 },
+    BufferCurrentIndex = { fg = c.bg0, bg = c.bg0 },
     BufferCurrentMod = { fg = c.yellow1, bg = c.bg0 },
     BufferCurrentSign = { link = 'BufferCurrentIndex' },
     BufferCurrentTarget = { fg = c.red1, bg = c.bg0, style = Styles.Bold },
@@ -477,7 +477,7 @@ theme.setup = function(cfg)
     BufferVisible = { fg = util.darken(c.fg0, 0.8), bg = c.bg0 },
     BufferVisibleIndex = { link = 'BufferCurrentIndex' },
     BufferVisibleMod = { link = 'BufferVisibleMod' },
-    BufferVisibleSign = { fg = util.darken(c.blue0, 0.8), bg = c.bg0 },
+    BufferVisibleSign = { fg = c.bg0, bg = c.bg0 },
     BufferVisibleTarget = { link = 'BufferCurrentTarget' },
 
     BufferInactive = { fg = util.darken(c.fg0, 0.5), bg = c.bg1 },
