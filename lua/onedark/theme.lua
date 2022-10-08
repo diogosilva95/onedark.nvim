@@ -117,7 +117,7 @@ theme.setup = function(cfg)
     -- Structure     = { }, --  struct, union, enum, etc.
     -- Typedef       = { }, --  A typedef
 
-    Special = { fg = c.gray1 }, -- (preferred) any special symbol
+    Special = { fg = c.red1 }, -- (preferred) any special symbol
     -- SpecialChar   = { }, --  special character in a constant
     -- Tag           = { }, --    you can use CTRL-] on this
     -- Delimiter     = { }, --  character that needs attention
@@ -210,7 +210,7 @@ theme.setup = function(cfg)
     TSNote = { fg = c.bg0, bg = c.info },
     TSWarning = { fg = c.bg0, bg = c.warning },
     TSDanger = { fg = c.bg0, bg = c.error },
-    TSConstructor = { fg = c.red1 }, -- For constructor calls and definitions: `= { }` in Lua, and Java constructors.
+    TSConstructor = { fg = c.gray1 }, -- For constructor calls and definitions: `= { }` in Lua, and Java constructors.
     -- TSConditional       = { };    -- For keywords related to conditionnals.
     TSConstant = { fg = c.yellow1 }, -- For constants
     -- TSConstBuiltin      = { };    -- For constant that are built in the language: `nil` in Lua.
