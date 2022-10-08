@@ -57,7 +57,7 @@ theme.setup = function(cfg)
     NormalNC = { fg = c.fg0, bg = cfg.transparent and c.none or c.bg0 }, -- normal text in non-current windows
     NormalSB = { fg = c.fg_dark, bg = c.bg_sidebar }, -- normal text in non-current windows
     NormalFloat = { fg = c.fg0, bg = c.bg_float }, -- Normal text in floating windows.
-    FloatBorder = { fg = c.blue0, bg = c.bg_float },
+    FloatBorder = { fg = c.bg_visual, bg = c.bg_float },
     Pmenu = { fg = c.fg0, bg = c.bg1 }, -- Popup menu: normal item.
     PmenuSel = { fg = c.bg1, bg = util.darken(c.green0, 0.8) }, -- Popup menu: selected item.at
     PmenuSbar = { bg = util.lighten(c.bg1, 0.9) }, -- Popup menu: scrollbar.
