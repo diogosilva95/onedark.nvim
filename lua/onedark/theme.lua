@@ -96,7 +96,7 @@ theme.setup = function(cfg)
     -- Float         = { }, --    a floating point constant: 2.3e10
 
     Identifier = { fg = c.red1, style = cfg.variable_style }, -- (preferred) any variable name
-    Function = { fg = c.blue0, style = cfg.function_style }, -- function name (also: methods for classes)
+    Function = { fg = c.cyan0, style = cfg.function_style }, -- function name (also: methods for classes)
     Method = { link = 'Function' }, -- method name
     Statement = { fg = c.purple0 }, -- (preferred) any statement
     -- Conditional   = { }, --  if, then, else, endif, switch, etc.
@@ -219,7 +219,7 @@ theme.setup = function(cfg)
     -- TSException         = { };    -- For exception related keywords.
     TSField = { fg = c.cyan0 }, -- For fields.
     -- TSFloat             = { };    -- For floats.
-    -- TSFunction          = { };    -- For function (calls and definitions).
+    TSFunction = { fg = c.cyan0 };    -- For function (calls and definitions).
     -- TSFuncBuiltin       = { };    -- For builtin functions: `table.insert` in Lua.
     -- TSFuncMacro         = { };    -- For macro defined fuctions (calls and definitions): each `macro_rules` in Rust.
     TSInclude = { fg = c.purple0 }, -- For includes: `#include` in C, `use` or `extern crate` in Rust, or `require` in Lua.
