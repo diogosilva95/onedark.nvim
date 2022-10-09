@@ -217,7 +217,7 @@ theme.setup = function(cfg)
     -- TSConstMacro        = { };    -- For constants that are defined by macros: `NULL` in C.
     -- TSError             = { };    -- For syntax/parser errors.
     -- TSException         = { };    -- For exception related keywords.
-    TSField = { fg = c.cyan0 }, -- For fields.
+    TSField = { fg = c.gray1 }, -- For fields.
     -- TSFloat             = { };    -- For floats.
     TSFunction = { fg = c.blue0 };   -- For function (calls and definitions).
     -- TSFuncBuiltin       = { };    -- For builtin functions: `table.insert` in Lua.
@@ -234,7 +234,7 @@ theme.setup = function(cfg)
     TSOperator = { fg = c.cyan0 }, -- For any operator: `+`, but also `->` and `*` in C.
     TSParameter = { fg = c.gray1 }, -- For parameters of a function.
     -- TSParameterReference= { };    -- For references to parameters of a function.
-    TSProperty = { fg = c.cyan0 }, -- Same as `TSField`.
+    TSProperty = { fg = c.gray1 }, -- Same as `TSField`.
     TSPunctDelimiter = { fg = c.fg0 }, -- For delimiters ie: `.`
     TSPunctBracket = { fg = c.fg_dark }, -- For brackets and parens.
     TSPunctSpecial = { fg = c.fg0 }, -- For special punctutation that does not fall in the catagories before.
