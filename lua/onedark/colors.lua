@@ -14,6 +14,7 @@ colors.setup = function(cfg)
     bg1 = '#21252b',
     bg_highlight = '#2c313a',
     bg_visual = '#23252c',
+    bg_visual2 = '#393f4a',
     black0 = '#20232A',
     blue0 = '#61afef',
     blue1 = '#528bff',
