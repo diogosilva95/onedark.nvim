@@ -20,7 +20,7 @@ theme.setup = function(cfg)
   ---@class od.Highlights.Base
   hi.base = {
     Comment = { fg = c.fg_dark, style = cfg.comment_style }, -- any comment
-    ColorColumn = { bg = c.bg_visual }, -- used for the columns set with 'colorcolumn'
+    ColorColumn = { bg = c.bg_visual2 }, -- used for the columns set with 'colorcolumn'
     Conceal = { fg = c.fg_gutter }, -- placeholder characters substituted for concealed text (see 'conceallevel')
     Cursor = { fg = c.blue1, bg = c.fg0 }, -- character under the cursor
     lCursor = { link = 'Cursor' }, -- the character under the cursor when |language-mapping| is used (see 'guicursor')
