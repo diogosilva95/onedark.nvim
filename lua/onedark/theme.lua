@@ -20,7 +20,7 @@ theme.setup = function(cfg)
   ---@class od.Highlights.Base
   hi.base = {
     Comment = { fg = c.fg_dark, style = cfg.comment_style }, -- any comment
-    ColorColumn = { bg = c.bg_visual2 }, -- used for the columns set with 'colorcolumn'
+    ColorColumn = { bg = c.bg_visual }, -- used for the columns set with 'colorcolumn'
     Conceal = { fg = c.fg_gutter }, -- placeholder characters substituted for concealed text (see 'conceallevel')
     Cursor = { fg = c.blue1, bg = c.fg0 }, -- character under the cursor
     lCursor = { link = 'Cursor' }, -- the character under the cursor when |language-mapping| is used (see 'guicursor')
@@ -36,7 +36,7 @@ theme.setup = function(cfg)
     -- TermCursor  = { }, -- cursor in a focused terminal
     -- TermCursorNC= { }, -- cursor in an unfocused terminal
     ErrorMsg = { fg = c.error }, -- error messages on the command line
-    VertSplit = { fg = c.bg_visual }, -- the column separating vertically split windows
+    VertSplit = { fg = c.bg_visual2 }, -- the column separating vertically split windows
     Folded = { fg = c.blue0, bg = c.fg_gutter }, -- line used for closed folds
     FoldColumn = { fg = c.fg_gutter, bg = c.bg0 }, -- 'foldcolumn'
     SignColumn = { fg = c.fg_gutter, bg = cfg.transparent and c.none or c.bg_linenumber }, -- column where |signs| are displayed
